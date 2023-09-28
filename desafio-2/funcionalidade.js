@@ -14,10 +14,10 @@ function RegisterInputData() {
   });
 }
 function ProcessInputData(palavra) {
-  if (Number.test(palavra)) {
+  if (palavra.includes(Number)){
     return false;
   }
-  if ("@,#,!".test(palavra)) {
+  if (palavra.includes('@,#,!')) {
     return false;
   }
   if (palavra.length <= 4) {
