@@ -1,6 +1,6 @@
 function Main() {
   const city1 = "Nova Iorque";
-  const city2 = "Paris";
+  const city2 = "Nantes ";
   const city3 = "Tóquio";
   const city4 = "Londres";
   const city5 = "Sydney";
